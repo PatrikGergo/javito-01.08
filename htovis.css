@@ -1,0 +1,98 @@
+body{
+  padding: 15px;
+  background-image: url(hatter.png);
+  box-sizing: border-box;
+}
+
+#bevezeto{
+ max-width: 600px;
+}
+
+h1{
+  text-align:center;
+  font-size: 222%;
+  margin: 0px 0px 10px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "header"
+  "aside"
+  "footer";
+
+}
+
+header{
+  grid-area: header;
+  font-size: 20px;
+  border-radius: solid 1px white;
+}
+
+header>h1{
+ color: #eb7100;
+}
+aside>h2{
+  color: #eb7100;
+}
+
+footer>h2{
+  color: #eb7100;
+}
+
+#bevezeto{
+  
+}
+p{
+  text-align:justify;
+}
+
+p:first-letter{
+  margin-left: 25px;
+}
+
+.f{
+  font-weight:bold;
+}
+
+.keret{
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-size: 75%;
+  background-color: #f1f1f1;
+  box-shadow: 10px 10px 5px #cfb7a2;
+}
+
+#erdekesseg{
+  width:250px;
+  float:right;
+  margin: 0px 0px 20px 15px;
+  background-color: #ffffcc;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg)
+}
+
+#bokor{
+  width: 550px;
+  border: 5px solid #eb7100;
+}
+
+#termes{
+  float:left;
+  height:400px;
+  margin-right: 25px;
+}
+
+li{
+  margin: 3px 0px;
+  font-style: italic;
+  list-style: url(bogyo.png);
+}
+
+.blokktores{
+  clear: both;
+}
